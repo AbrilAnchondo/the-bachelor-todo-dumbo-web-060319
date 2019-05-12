@@ -66,7 +66,6 @@ def get_average_age_for_season(data, season)
         end
       end
     end
-  puts ages = (ages/counter)
-  puts ages 
-  #puts ages.round
+  puts ages = ages/counter
+ 
 end

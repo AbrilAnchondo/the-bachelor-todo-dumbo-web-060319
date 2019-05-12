@@ -63,10 +63,8 @@ def get_average_age_for_season(data, season)
        info_array.each do |details|
           ages += details["age"].to_i 
           counter += 1
-          puts 
-          puts ages
         end
       end
     end
-  
+  ages = (ages/counter).round
 end

@@ -66,7 +66,7 @@ def get_average_age_for_season(data, season)
         end
       end
     end
-  ages = ages/counter 
+  puts ages = ages/counter 
   ages = ages.ceil 
   ages
 end
